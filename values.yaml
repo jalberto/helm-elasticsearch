@@ -38,6 +38,9 @@ common:
     # "gp2" would be appropriate.
     class: "standard"
 
+    # Beta support for GID
+    # gid: 1000
+
 # Create custom config file
 # You will need to tweak `command` & `args` to use it instead of default file
 # WARNING: this can broke install/upgrade so use only if you know what are you doing
@@ -195,4 +198,4 @@ kibana:
       # Secrets must be manually created in the namespace.
       # - secretName: kibana-tls
       #   hosts:
-      #     - kibana.local
+      #     - kibana.local  
