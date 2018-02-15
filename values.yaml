@@ -41,6 +41,9 @@ common:
     # Beta support for GID
     # gid: 1000
 
+    # Data dir location
+    data_dir: "/data"
+
 # Create custom config file
 # You will need to tweak `command` & `args` to use it instead of default file
 # WARNING: this can broke install/upgrade so use only if you know what are you doing
