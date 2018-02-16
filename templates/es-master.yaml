@@ -121,7 +121,7 @@ spec:
           periodSeconds: 10
         volumeMounts:
         - name: storage
-          mountPath: {{- .Values.common.stateful.data_dir }}
+          mountPath: {{ .Values.common.stateful.dataDir }}
         {{- if .Values.configmap.enabled }}
         - name: cfgmap
           mountPath: /mnt/cfgmap

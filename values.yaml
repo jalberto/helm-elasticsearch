@@ -42,7 +42,7 @@ common:
     # gid: 1000
 
     # Data dir location
-    data_dir: "/data"
+    dataDir: "/data"
 
 # Create custom config file
 # You will need to tweak `command` & `args` to use it instead of default file
